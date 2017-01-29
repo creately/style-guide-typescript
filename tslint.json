@@ -1,0 +1,163 @@
+//Core Rules - https://palantir.github.io/tslint/rules/
+{
+    "rules": {
+        //TypeScript Sepcific
+        "only-arrow-functions": true,
+        "unified-signatures": true,
+        //Functionality
+        // "ban": "", //Not sure how this works - HT
+        // "await-promise": true, //Requires Type
+        "curly": true,
+        "no-console": [
+            true,
+            "log",
+            "warn",
+            "info",
+            "error"
+        ],
+        "no-duplicate-variable": true,
+        "no-empty": true,
+        "no-eval": true,
+        // "no-floating-promises": true, //Requires Type
+        "no-invalid-this": [
+            true,
+            "check-function-in-method"
+        ],
+        "no-misused-new": true,
+        "no-shadowed-variable": true,
+        "no-string-literal": true,
+        "no-switch-case-fall-through": true,
+        // "no-unbound-method": true, //Requires Type
+        "no-unsafe-finally": true,
+        // "no-unsafe-any": true, //Requires Type
+        "no-unused-expression": true,
+        "no-unused-new": true,
+        "no-unused-variable": [
+            true,
+            "check-parameters",
+            {
+                "ignore-pattern": "ng"
+            }
+        ],
+        "no-use-before-declare": true,
+        "no-var-keyword": true,
+        "no-var-requires": true,
+        // "strict-type-predicates": true, //Requires Type
+        "typeof-compare": true,
+        "use-isnan": true,
+        //Maintainability
+        "cyclomatic-complexity": [
+            true,
+            10
+        ], //Just trying this out. Must experiment - HT
+        "eofline": true,
+        "indent": [
+            true,
+            "spaces",
+            4
+        ],
+        "linebreak-style": [
+            true,
+            "LF"
+        ],
+        "max-classes-per-file": [
+            true,
+            3
+        ],
+        "max-file-line-count": [
+            true,
+            800
+        ],
+        "max-line-length": [
+            true,
+            120
+        ],
+        "no-require-imports": true,
+        "no-trailing-whitespace": true,
+        "prefer-const": true,
+        "trailing-comma": [
+            true,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ],
+        //Style
+        "align": [
+            true,
+            "parameters",
+            "statements"
+        ],
+        "arrow-parens": [
+            true,
+            "ban-single-arg-parens"
+        ],
+        "arrow-return-shorthand": [
+            true,
+            "multiline"
+        ],
+        "class-name": true,
+        "comment-format": [
+            true,
+            "check-space",
+            "check-uppercase"
+        ],
+        // "completed-docs": [true], //Requires Type
+        "import-spacing": true,
+        "interface-name": [
+            true
+        ],
+        "jsdoc-format": true,
+        "new-parens": true,
+        "no-consecutive-blank-lines": [
+            true,
+            2
+        ],
+        // "no-unnecessary-qualifier": true //Requires Type
+        "object-literal-key-quotes": [
+            true,
+            "consistent-as-needed"
+        ],
+        "one-line": [
+            true,
+            "check-catch",
+            "check-finally",
+            "check-else",
+            "check-open-brace",
+            "check-whitespace"
+        ],
+        "one-variable-per-declaration": [
+            true,
+            "ignore-for-loop"
+        ],
+        "quotemark": [
+            true,
+            "single"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "variable-name": [
+            true,
+            "check-format",
+            "allow-leading-underscore"
+        ],
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-type",
+            "check-preblock"
+        ],
+        "space-in-parens": [
+            "always"
+        ]
+    },
+    "rulesDirectory": [
+        "node_modules/tslint-eslint-rules/dist/rules"
+    ]
+}
