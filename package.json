@@ -4,7 +4,7 @@
     "description": "The style guide for typescript projects at Cinergix. ",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "postinstall": "cp tslint.json ../../. && cp .editorconfig ../../."
+        "postinstall": "node .npm_scripts/postinstall"
     },
     "repository": {
         "type": "git",
@@ -18,5 +18,8 @@
     "bugs": {
         "url": "https://github.com/Cinergix/style-guide-typescript/issues"
     },
-    "homepage": "https://github.com/Cinergix/style-guide-typescript#readme"
+    "homepage": "https://github.com/Cinergix/style-guide-typescript#readme",
+    "dependencies": {
+        "shelljs": "^0.7.6"
+    }
 }
