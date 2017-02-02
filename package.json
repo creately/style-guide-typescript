@@ -1,25 +1,26 @@
 {
-    "name": "style-guide-typescript",
-    "version": "1.0.0",
-    "description": "The style guide for typescript projects at Cinergix. ",
-    "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
-        "postinstall": "node .npm_scripts/postinstall"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Cinergix/style-guide-typescript.git"
-    },
-    "keywords": [
-        "tslint"
-    ],
-    "author": "Cinergix Pty Ltd",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/Cinergix/style-guide-typescript/issues"
-    },
-    "homepage": "https://github.com/Cinergix/style-guide-typescript#readme",
-    "dependencies": {
-        "shelljs": "^0.7.6"
-    }
+  "name": "style-guide-typescript",
+  "version": "1.0.0",
+  "description": "The style guide for typescript projects at Cinergix. ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "node .npm_scripts/postinstall"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cinergix/style-guide-typescript.git"
+  },
+  "keywords": [
+    "tslint"
+  ],
+  "author": "Cinergix Pty Ltd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cinergix/style-guide-typescript/issues"
+  },
+  "homepage": "https://github.com/Cinergix/style-guide-typescript#readme",
+  "dependencies": {
+    "shelljs": "^0.7.6",
+    "tslint-eslint-rules": "git://github.com/Cinergix/tslint-eslint-rules.git#dev"
+  }
 }
