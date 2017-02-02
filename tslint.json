@@ -154,7 +154,15 @@
             "check-preblock"
         ],
         "space-in-parens": [
-            "always"
+            "always",
+            {
+                "exceptions": [
+                    "{}",
+                    "[]",
+                    "()",
+                    "empty"
+                ]
+            }
         ]
     },
     "rulesDirectory": [
