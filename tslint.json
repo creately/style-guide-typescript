@@ -173,8 +173,12 @@
                 ]
             }
         ],
-        "brace-style": "1tbs",
+        "brace-style": [
+            true,
+            "1tbs"
+        ],
         "object-curly-spacing": [
+            true,
             "always",
             {
                 "objectsInObjects": false,
@@ -182,6 +186,7 @@
             }
         ],
         "array-bracket-spacing": [
+            true,
             "always",
             {
                 "objectsInArrays": false,
