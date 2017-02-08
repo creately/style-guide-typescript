@@ -27,6 +27,7 @@
         "no-shadowed-variable": true,
         "no-string-literal": true,
         "no-switch-case-fall-through": true,
+        "no-duplicate-case": true,
         // "no-unbound-method": true, //Requires Type
         "no-unsafe-finally": true,
         // "no-unsafe-any": true, //Requires Type
@@ -96,6 +97,13 @@
             true,
             "multiline"
         ],
+        "arrow-spacing": [
+            true,
+            {
+                "before": true,
+                "after": true
+            }
+        ],
         "class-name": true,
         "comment-format": [
             true,
@@ -163,6 +171,21 @@
                     "()",
                     "empty"
                 ]
+            }
+        ],
+        "brace-style": "1tbs",
+        "object-curly-spacing": [
+            "always",
+            {
+                "objectsInObjects": false,
+                "arraysInObjects": false
+            }
+        ],
+        "array-bracket-spacing": [
+            "always",
+            {
+                "objectsInArrays": false,
+                "arraysInArrays": false
             }
         ]
     },
