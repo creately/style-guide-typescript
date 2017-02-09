@@ -35,7 +35,6 @@
         "no-unused-new": true,
         "no-unused-variable": [
             true,
-            "check-parameters",
             {
                 "ignore-pattern": "ng"
             }
