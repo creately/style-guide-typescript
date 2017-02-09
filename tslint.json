@@ -67,7 +67,7 @@
         ],
         "max-file-line-count": [
             true,
-            800
+            900
         ],
         "max-line-length": [
             true,
@@ -97,7 +97,7 @@
             true,
             "multiline"
         ],
-        "arrow-spacing": [
+        "ter-arrow-spacing": [
             true,
             {
                 "before": true,
