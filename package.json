@@ -21,9 +21,9 @@
     "homepage": "https://github.com/Cinergix/style-guide-typescript#readme",
     "dependencies": {
         "shelljs": "^0.7.6",
-        "tslint-eslint-rules": "git://github.com/Cinergix/tslint-eslint-rules.git#dev"
+        "tslint-eslint-rules": "^3.4.0"
     },
     "peerDependencies": {
-        "tslint-eslint-rules": "git://github.com/Cinergix/tslint-eslint-rules.git#dev"
+        "tslint-eslint-rules": "^3.4.0"
     }
 }
