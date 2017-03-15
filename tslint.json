@@ -208,10 +208,6 @@
         "no-construct": true,
         "no-debugger": true,
         "no-empty-interface": true,
-        "no-inferrable-types": [
-            true,
-            "ignore-params"
-        ],
         "no-string-throw": true,
         "object-literal-sort-keys": false,
         "radix": true,
