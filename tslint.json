@@ -227,12 +227,12 @@
         ],
         "directive-selector": [
             true,
-            "attribute",
+            "attribute", "",
             "camelCase"
         ],
         "component-selector": [
             true,
-            "element",
+            "element", "",
             "kebab-case"
         ],
         "use-input-property-decorator": true,
