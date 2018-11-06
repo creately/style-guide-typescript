@@ -46,7 +46,7 @@
         //Maintainability
         "cyclomatic-complexity": [
             true,
-            10
+            30
         ], //Just trying this out. Must experiment - HT
         "eofline": true,
         "indent": [
@@ -191,7 +191,7 @@
         ],
         //From Angular CLI - Angular styleguide
         "callable-types": true,
-        "forin": true,
+        // "forin": true,
         // "import-blacklist": [
         //     true,
         //     "rxjs"
