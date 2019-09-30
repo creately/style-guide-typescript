@@ -251,5 +251,10 @@
     "rulesDirectory": [
         "node_modules/tslint-eslint-rules/dist/rules",
         "node_modules/codelyzer"
-    ]
+    ],
+    "linterOptions": {
+        "exclude": [
+            "**/node_modules/**"
+        ]
+    }
 }
